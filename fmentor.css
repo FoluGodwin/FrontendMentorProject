@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(10, 1, 1, 0.027);
+    width: 100%;
+}
 .main{
     text-align: center;
     display: flex;
@@ -12,6 +16,7 @@
     padding: 20px 0px 20px 0px;
     background-image: linear-gradient(rgb(92, 92, 238), rgb(9, 9, 134));
     border-radius: 1rem;
+    margin-left: 150px;
 }
 .circle{
     text-align: center;
@@ -24,13 +29,19 @@
 }
 .right-box{
     height: 350px;
-    margin-left: 10px;
+    background-color: white;
+    height: 320px;
+    width: 300px;
+    border-radius: 1rem;
+    text-align: center;
+    margin-right: 80px;
+    padding-top: 20px;
 }
 ul{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    margin: 0px 120px 25px 220px;
+    margin: 0px 120px 25px -10px;
 }
 input{
     width: 200px;
@@ -40,5 +51,8 @@ input{
     border-radius: 1rem;
     background-color: rgba(7, 7, 24, 0.938);
     border-color: rgba(7, 7, 24, 0.938);
-    margin-left: 150px;
+    margin-left: -50px;
+}
+.right-box h3{
+    margin-left: -160px;
 }
